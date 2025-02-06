@@ -13,7 +13,10 @@ pub mod problem_013; // Large Sum
 pub mod problem_014; // Longest Collatz Sequence
 pub mod problem_015; // Lattice Paths
 pub mod problem_016; // Power Digit Sum
+pub mod problem_017; // Number Letter Counts
 
 pub mod problem_051; // Prime Digit Replacements
 
 pub mod problem_060; // Prime Pair Sets
+
+pub mod problem_069; // Totient Maximum

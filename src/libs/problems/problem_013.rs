@@ -128,7 +128,6 @@ fn add_str(s: String) {
     let mut ret = 0; // retenu
     for pow10 in 0..w[0].len() {
         for num in &w {
-            // would be nice for this line to disappear
             let mut rev_num = num.clone(); 
             rev_num.reverse();
             acc += rev_num[pow10];

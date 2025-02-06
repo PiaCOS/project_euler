@@ -7,7 +7,3 @@ pub fn answer() -> u32 {
 
     s.chars().map(|x| x.to_digit(10).unwrap()).fold(0, |acc, x| acc + x)
 }
-
-// ideas:
-// - do the vec thing 
-// - find crate for those kind of problems !!!! bigint=bigwin

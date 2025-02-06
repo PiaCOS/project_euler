@@ -12,7 +12,7 @@ pub fn answer() -> u64 {
     largest_bounded_prime_factor(n, 10_000_000_000)
 }
 
-// The idea is to divide the number by the biggest number possib
+// The idea is to divide the number by the biggest number possible
 pub fn largest_bounded_prime_factor(n: u64, thr: u64) -> u64 {
     let (primes, _) = sieve_of_eratosthene(thr);
     let mut biggest = 1;
